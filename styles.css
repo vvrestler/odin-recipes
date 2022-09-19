@@ -1,12 +1,16 @@
 body {
-    background-color: rgb(238, 181, 107);
-    font-family: fantasy;}
+    background-color: rgb(236, 206, 165);
+    font-family: sans-serif;}
 .title {
-    text-align: center;}
+    text-align: center;
+    border-bottom: solid black 3px;}
 .link {
-font-weight: 700;
-}
-.img {
+font-weight: 700;}
+img {
+    display: block;
     width: 500px;
-    height: auto;
-}
+    margin: auto;
+    border: solid white 2px;}
+ol, 
+ul {
+    line-height: 150%;}
